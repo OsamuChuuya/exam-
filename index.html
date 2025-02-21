@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text">Movies!</h1>
+        <div class="cont">
+            <input type="text" id="searchInput" placeholder="Enter your movie name" />
+            <select id="type">
+                <option value="all">All</option>
+                <option value="action">action</option>
+                <option value="adventure">adventure</option>
+                <option value="animation">animation</option>
+                <option value="comedy">Comedy</option>
+                <option value="crime">Crime</option>
+                <option value="drama">Drama</option>
+                <option value="horror">Horror</option>
+                <option value="mystery">Mystery</option>
+                <option value="thriller">Thriller</option>
+            </select>
+            <select id="sort">
+                <option value="AA">A-Z</option>
+                <option value="Z-A">Z-A</option>
+                <option value="Max">Max-year 2018-2000</option>
+                <option value="Min">Min-year 2000-2018</option>
+            </select>
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="films" class="film">
+            <!-- <div class="p"></div> -->
+            <!-- <div class="card">
+            </div> -->
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="movies.js"></script>
+</body>
+</html>
